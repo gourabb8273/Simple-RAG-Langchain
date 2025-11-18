@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Build & dist
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoint folders
+.ipynb_checkpoints/
+
+# VSCode / IDE config
+.vscode/
+.idea/
+
+# Bytecode cache for some tools
+.mypy_cache/
+.pytest_cache/
