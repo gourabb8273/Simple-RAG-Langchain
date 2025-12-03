@@ -77,6 +77,18 @@ ipykernel==6.30.1
 # Numpy (required for similarity calculations)
 numpy
 
+#ragas Frame work
+ragas==0.3.7
+
+#Hugging face Datasets (required for ragas)
+datasets>=2.14.5
+
+#Seaborn (optional, for data visualization)
+seaborn>=0.12.0
+
+pandas
+opik
+
 # ============================================================================
 # DEVELOPMENT & TESTING (optional)
 # ============================================================================
@@ -110,3 +122,4 @@ numpy
 #   - Some packages may require additional system dependencies
 #
 # ============================================================================
+
